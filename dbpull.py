@@ -2,7 +2,8 @@
 import os
 import getpass
 
-# script to get a database from remote server and import it locally, built on Ubuntu
+# Script to get a database from remote server and import it locally, built on Ubuntu.
+# This script assumes you want to use the same db username and password on both systems.
 
 temp_dir = '/tmp'
 temp_filename = 'temp.sql'

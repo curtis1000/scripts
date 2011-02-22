@@ -4,7 +4,7 @@
 # makes the assumption that you want them placed in the same path.
 
 if [ -z $1 ] || [ -z $2 ]; then
-        echo "Usage: filepull host path"
+        echo "Usage: filepull.sh host path"
         exit 1
 fi
 

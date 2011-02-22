@@ -1,11 +1,9 @@
 #!/bin/bash
 
-if [ -z $1 ]; then
-        echo "Usage: filepull host path"
-        exit 1
-fi
+# This script mirrors files over ssh from a remote system to the local system, and it 
+# makes the assumption that you want them placed in the same path.
 
-if [ -z $2 ]; then
+if [ -z $1 ] || [ -z $2 ]; then
         echo "Usage: filepull host path"
         exit 1
 fi
